@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("./fondo_reloj.jpg");
+    background-size: cover;
+    color: white;
+    font-size: 16px;
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#wrap{
+    width: 90%;
+    max-width: 1000px;
+    
+}
+.widget{
+    width: 40%;
+    margin: 20px;
+}
+    .widget p{
+        display:inline-block;
+        line-height: 16px;        
+    }
+
+.calendar{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 5px;
+    background: rgba(0, 0, 0, .4);
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(6, 248, 236);
+}    
+    .calendar p{
+        display:inline-block;
+        line-height: 16px;
+        text-shadow: 2px 2px 2px white;
+        font-size: 24px;
+    } 
+
+.time{
+    width: 100%;
+    padding: 20px;
+    font-size: 4em;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(6, 248, 236);
+}
+.time p{
+    display:inline-block;
+    line-height: 16px;
+    text-shadow: 2px 2px 2px white;
+} 
+#seconds{
+    font-size: 20px;
+}
